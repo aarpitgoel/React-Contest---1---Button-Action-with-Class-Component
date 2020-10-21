@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        <button id="button" onClick={() => this.setState({ flag: true })}>
+        <button id="click" onClick={() => this.setState({ flag: true })}>
           {this.state.flag ? (
             <p id="para">
               Hello, I've learnt to use the full-stack evaluation tool. This
